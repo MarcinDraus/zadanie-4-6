@@ -14,10 +14,10 @@ $color-one: rgb(220, 179, 28);
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
-    color: $color-one;
+	color: $color-one;
 	display: flex;
 	text-align: center;
-    
+	border: 10px solid;
 	.splash-inner {
 		position: absolute;
 		width: 100%;
@@ -28,44 +28,44 @@ $color-one: rgb(220, 179, 28);
 		max-width: 70%;
 		cursor: pointer;
 		text-decoration: none;
-        color: white;
+		color: white;
+		font-size: x-large;
+		h1 {
+			font-style: italic;
+		}
+		h2 {
+			text-transform: uppercase;
+			font-size: 60px;
+		}
 	}
 }
 .navigation {
 	position: absolute;
 	display: inline;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-left: 50%;
-	list-style-type: none;
-	text-decoration: none;
-	color: white 
+	padding-top: 0;
 
-		
-		
-    ul {
+	padding-left: 40%;
+	text-decoration: none;
+	color: white ul {
 		list-style-type: none;
-		text-decoration: none;
 		display: inline;
 	}
 	li {
 		display: inline;
-		padding-right: 50px;
-		padding-top: 50px;
+		padding: 45px;
 	}
 	a {
 		text-decoration: none;
 		color: white;
-		display: inline;
+		font-size: 20px;
 	}
 }
-
 .btn {
 	display: inline-block;
 	min-width: 150px;
 	margin: 24px auto 0 auto;
 	padding: 16px;
-
+	border-radius: 5%;
 	font-family: white;
 	color: white;
 	font-size: 16px;
@@ -76,13 +76,17 @@ $color-one: rgb(220, 179, 28);
 	border-style: solid;
 	background-color: rgb(220, 179, 28);
 }
-.golden {
-    position: absolute;
-    display: inline;
-    padding: top 12px 12px;
-    padding-bottom: 12px;
-    padding-left: 25%;
-    color: $color-one;  
-    background-color: rgb(220, 179, 28);
-    
+p {
+	position: relative;
+	right: 80%;
+	top: 80px;
+	font-style: italic;
+	display: inline-block;
+	text-align: center;
+	font-size: 35px;
 }
+.row {
+	border: 2px solid;
+	border-color: aqua;
+}
+/*SERVICES*/
