@@ -42,8 +42,7 @@ $color-one: rgb(220, 179, 28);
 .navigation {
 	position: absolute;
 	display: inline;
-	padding-top: 0;
-
+	padding-top: 30px;
 	padding-left: 40%;
 	text-decoration: none;
 	color: white ul {
@@ -53,11 +52,22 @@ $color-one: rgb(220, 179, 28);
 	li {
 		display: inline;
 		padding: 45px;
+		top: 20px;
 	}
 	a {
 		text-decoration: none;
 		color: white;
 		font-size: 20px;
+	}
+	p {
+		position: absolute;
+		right: 80%;
+		top: 0;
+		bottom: 100%;
+		font-style: italic;
+		display: inline;
+		text-align: center;
+		font-size: 35px;
 	}
 }
 .btn {
@@ -76,17 +86,50 @@ $color-one: rgb(220, 179, 28);
 	border-style: solid;
 	background-color: rgb(220, 179, 28);
 }
-p {
-	position: relative;
-	right: 80%;
-	top: 80px;
-	font-style: italic;
-	display: inline-block;
-	text-align: center;
-	font-size: 35px;
-}
+
 .row {
 	border: 2px solid;
 	border-color: aqua;
 }
+.col {
+	text-align: center;
+	text-justify: distribute-all-lines;
+	border: 2px solid;
+	border-color: crimson;
+}
+.col- {
+	border: 2px solid;
+	border-color: crimson;
+}
 /*SERVICES*/
+.serv-k {
+	border: 2px solid;
+	border-color: crimson;
+	position: relative;
+	height: 300px;
+	i {
+		border: solid 2px;
+		border-radius: 100%;
+		padding: 7px;
+		color: $color-one;
+		font-size: xx-large;
+		align-items: center;
+		position: absolute;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+	p {
+		text-align: center;
+		bottom: 10%;
+	}
+	h3 {
+		text-align: center;
+	}
+	.fa {
+		height: 50px;
+	}
+}
+.services {
+	text-align: center;
+}
+/*Portfolio*/
