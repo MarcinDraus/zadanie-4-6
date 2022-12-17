@@ -17,7 +17,7 @@ $color-one: rgb(220, 179, 28);
 	color: $color-one;
 	display: flex;
 	text-align: center;
-	border: 10px solid;
+	
 	.splash-inner {
 		position: absolute;
 		width: 100%;
@@ -46,12 +46,12 @@ $color-one: rgb(220, 179, 28);
 	padding-left: 40%;
 	text-decoration: none;
 	color: white ul {
-		list-style-type: none;
-		display: inline;
+	list-style-type: none;
+	display: inline;
 	}
 	li {
 		display: inline;
-		padding: 45px;
+		padding: 40px;
 		top: 20px;
 	}
 	a {
@@ -68,6 +68,7 @@ $color-one: rgb(220, 179, 28);
 		display: inline;
 		text-align: center;
 		font-size: 35px;
+        font-family:cursive;
 	}
 }
 .btn {
@@ -83,28 +84,13 @@ $color-one: rgb(220, 179, 28);
 	text-decoration: none;
 	cursor: pointer;
 	border-width: 0px;
-	border-style: solid;
-	background-color: rgb(220, 179, 28);
-}
-
-.row {
-	border: 2px solid;
-	border-color: aqua;
+    background-color: $color-one;
 }
 .col {
 	text-align: center;
-	text-justify: distribute-all-lines;
-	border: 2px solid;
-	border-color: crimson;
-}
-.col- {
-	border: 2px solid;
-	border-color: crimson;
 }
 /*SERVICES*/
 .serv-k {
-	border: 2px solid;
-	border-color: crimson;
 	position: relative;
 	height: 300px;
 	i {
@@ -133,3 +119,51 @@ $color-one: rgb(220, 179, 28);
 	text-align: center;
 }
 /*Portfolio*/
+.blox {
+	display: inline-block;
+}
+.img {
+    height: 350px;
+    overflow: hidden;
+}
+.i {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-color: white;
+}
+.blox {
+    align-items: center;
+}
+.ourportfoliox {
+    background-color:#eff2f5
+}
+.c {
+    text-align: center;
+    padding-top: 45px;
+    i {
+        border: 1px solid;
+        border-radius: 90%;
+        padding: 1px;
+        margin: 1px;
+        font-size: small;
+    }
+}
+.icon {
+    font-size: 50px;
+    padding: 40px 40px;
+    text-align: center;
+    i {
+        padding-left: 3px;
+    }
+}
+.footer {
+    display: inline;
+}
+
+.a-twitter {
+    border: 1px solid;
+    border-radius: 90%;
+    padding: 1px;
+    margin: 1px;
+}
